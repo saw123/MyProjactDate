@@ -17,8 +17,8 @@ public class Lesson1Date {
         throws Exception{
         /**
         * Convert date received input from the keyboard in the format Calendar
-        *                                                                                *
-         */
+        *
+        */
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy", Locale.ROOT);
         Date d = sdf.parse(timest);
         Calendar cal = Calendar.getInstance();
@@ -97,7 +97,7 @@ public class Lesson1Date {
             brmon = 0;
         }
 
-//        System.out.println("Первый месяц " + ++mon1);
+        System.out.println("Первый месяц " + ++mon1);
         System.out.println("From the date of birth was : " + bryear + " year, " + brmon + " months and " + brday + " day" );
 
     }
